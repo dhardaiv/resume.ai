@@ -1,0 +1,16 @@
+# Web
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Hugging Face embeddings
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# File upload + text extraction
+python-multipart>=0.0.9
+pypdf>=3.0.0
+python-docx>=1.0.0
+
+# Utils
+pydantic>=2.0.0
+pydantic-settings>=2.0.0

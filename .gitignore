@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pnp
+.pnp.js
+
+# Build / output
+.next/
+out/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Env and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs and cache
+*.log
+.npm
+.eslintcache
+.cache/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+coverage/
+
+# Hugging Face / model cache (optional: keep if you want to ignore large models)
+# .cache/huggingface/
