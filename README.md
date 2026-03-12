@@ -1,4 +1,4 @@
-# Resume ↔ Job Description Matching Engine
+# Resume -- Job Description Matching Engine
 
 Match resumes to job descriptions using semantic similarity powered by Hugging Face embeddings.
 
@@ -30,21 +30,3 @@ pip install -r requirements.txt
 cp .env.example .env       # edit as needed
 uvicorn app.main:app --reload
 ```
-
-API: http://localhost:8000  
-Docs: http://localhost:8000/docs
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-cp .env.example .env.local
-npm run dev
-```
-
-App: http://localhost:3000
-
-## License
-
-MIT
