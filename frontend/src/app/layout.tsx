@@ -5,8 +5,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Resume–Job Match Analyzer',
-  description: 'AI-powered semantic matching between your resume and job descriptions.',
+  title: 'resume.ai – AI-Powered Resume Matcher',
+  description:
+    'Upload your resume and any job description to discover how well they match. Get skill gap analysis and section-by-section insights powered by AI.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
