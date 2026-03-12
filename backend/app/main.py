@@ -1,5 +1,9 @@
 """FastAPI app entrypoint."""
 
+from dotenv import load_dotenv
+
+load_dotenv()  # must run before any HuggingFace imports so HF_HUB_OFFLINE is in os.environ
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
